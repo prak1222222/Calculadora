@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteudo">
+        <ul></ul>
+        <form >
+            <input id="lampWattage" type="number" placeholder="Potência da Lâmpada" required>
+            <input id="lampHours" type="number" placeholder="Horas de Uso" requided>
+            <input id="acWattage" type="number" placeholder="Potência Ar Condicionado" required>
+            <input id="acHours" type="number" placeholder="Horas de Uso" requided>
+            <input 
+                id="btn_calcular" 
+                type="button" 
+                value="Calcular Consumo"
+                onclick="calcular()"
+            >
+    
+            <p id="result">Seu Consumo é: </p>
+            
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
